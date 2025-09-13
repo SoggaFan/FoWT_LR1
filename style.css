@@ -30,6 +30,10 @@ header {
   font-weight: 600;
 }
 
+.strong {
+  font-weight: 600;
+}
+
 /* Стили для ссылок в навигации */
 nav a {
   margin-left: 20px; /* Отступ между ссылками */
