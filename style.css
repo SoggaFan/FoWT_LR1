@@ -1,0 +1,124 @@
+/* Сброс стилей для всех элементов, вроде как неоходим */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Основные стили для body: шрифт, цвет, фон, межстрочный интервал */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fafafa;
+  line-height: 1.6;
+}
+
+/* Стили для шапки сайта */
+header {
+  background-color: #ff7f50; /* Оранжевый фон */
+  color: white; /* Белый текст */
+  display: flex; /* Flex-контейнер, нужен для создания адаптивных макетов */
+  justify-content: space-between; /* Равномерно распределяет элементы по краям */
+  align-items: center; /* Вырвнивает содержимое flex-контейнера по центру */
+  padding: 15px 30px; /* Внутренние отступы */
+}
+
+/* Стили для логотипа */
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Стили для ссылок в навигации */
+nav a {
+  margin-left: 20px; /* Отступ между ссылками */
+  text-decoration: none; /* Без подчеркивания */
+  font-weight: 600;
+  color: white;
+  transition: opacity 0.3s; /* Плавное изменение прозрачности при загрузке сайта */
+}
+
+/* Эффект наведения на ссылки */
+nav a:hover {
+  opacity: 0.7;
+}
+
+/* Стили для основного контента */
+main {
+  padding: 30px;
+}
+
+/* Отступ между секциями */
+section {
+  margin-bottom: 50px;
+}
+
+/* Стили для заголовков второго уровня */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #ff7f50;
+}
+
+/* Стили для изображений */
+img {
+  width: 45%;
+  max-width: 500px;
+  border-radius: 12px; /* Скругление углов */
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* Стили для таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Убирает двойные линии */
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* Тень */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Стили для ячеек таблицы */
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Стили для заголовков таблицы */
+th {
+  background-color: #ff7f50;
+  color: white;
+}
+
+/* Эффект наведения на строки таблицы */
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Стили для маркированных списков */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Стили для футера */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Стили для ссылок в футере */
+footer a {
+  color: #ff7f50;
+  text-decoration: none;
+}
+
+/* Эффект наведения на ссылки в футере */
+footer a:hover {
+  text-decoration: underline;
+}
